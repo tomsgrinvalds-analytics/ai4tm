@@ -45,8 +45,8 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 ### Week 3: Evaluation
 **Topics**: Regression, classification, semantic search
 **Content**:
-- [Evaluation Template (Notebook)](week_3/lesson13_evaluation_template.ipynb) - Accuracy, precision, recall, F1, confusion matrix
-- [Human-in-the-Loop Validation (Notebook)](week_3/lesson12_human_in_the_loop.ipynb) - BLEU, ROUGE, LLM-as-judge, and deciding where a person needs to check the model's work
+- [Evaluation Template (Notebook)](week_3/lesson12_evaluation_template.ipynb) - Accuracy, precision, recall, F1, confusion matrix
+- [Human-in-the-Loop Validation (Notebook)](week_3/lesson13_human_in_the_loop.ipynb) - BLEU, ROUGE, LLM-as-judge, and deciding where a person needs to check the model's work
 
 ### Week 4: Compliance
 **Topics**: AI compliance and regulatory considerations
