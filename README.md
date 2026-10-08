@@ -47,6 +47,7 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 **Content**:
 - [Evaluation Template (Notebook)](week_3/lesson12_evaluation_template.ipynb) - Accuracy, precision, recall, F1, confusion matrix
 - [Human-in-the-Loop Validation (Notebook)](week_3/lesson13_human_in_the_loop.ipynb) - BLEU, ROUGE, LLM-as-judge, and deciding where a person needs to check the model's work
+- [Office Hours: Loading a CSV / Google Sheet and Running evaluate() (Notebook)](week_3/office_hours_load_csv_and_evaluate.ipynb) - Loading a topic-labeled Search Console export from your computer or a Google Sheet, having Gemini assign its own topics, and scoring them with the evaluation template
 
 ### Week 4: Compliance
 **Topics**: AI compliance and regulatory considerations
