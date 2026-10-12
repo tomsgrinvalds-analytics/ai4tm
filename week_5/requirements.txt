@@ -3,6 +3,9 @@
 # explicit package list written directly into that same setup cell instead of this
 # file, since opening the notebook via "Open in Colab" never has this file alongside
 # it. Keep the two in sync if you add or remove something here.
+#
+# Needs Python 3.11 or 3.12 (`uv venv --python 3.12`). synthcity can't be installed on
+# 3.13+: its torch<2.3 pin has no 3.13 wheels.
 
 # ipykernel: not used by the notebook itself, only needed so VS Code (or any
 # editor) can register this environment as a selectable Jupyter kernel. Colab
@@ -15,6 +18,9 @@ ipykernel
 
 synthcity
 opacus<1.5
+# optuna 5 made suggest_int()'s step argument keyword-only; synthcity still passes it
+# positionally, so tuning fails with "suggest_int() takes 4 positional arguments".
+optuna<5
 ipython
 kaleido
 fastapi
